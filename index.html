@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS3/15 - VW e VH/estilo.css">
+
+    <title>Vw e Vh</title>
+</head>
+<body>
+    <section>
+        <h2>Vh e Vw: o que são?</h2>
+        <p>
+            No CSS, <code>vh</code> e <code>vw</code> são unidades relativas que medem porcentagens da dimensão da janela de <strong>visualização (viewport)</strong>, ou seja, a área visível da tela no navegador.
+        </p>
+    </section>
+    <section>
+        <h3>Diferença entre <code>vh</code> e <code>vw</code>:</h3>
+        <ul>
+            <li class="p"><code>vh</code><strong>(Viewport Height):</strong>
+                <ul>
+                    <li>Representa 1% da altura total da viewport.</li>
+                    <li>Exemplo: Se a altura da janela for 100px, 1vh = 10px.</li>
+                    <li>Se você definir um elemento com <code>height: 100vh</code>, ele terá exatamente a altura da janela inteira.</li>
+                </ul>
+            </li>
+            <br>
+            <li class="p">
+                <code>vw</code><strong>(Viewport Width):</strong>
+                <ul>
+                    <li>Representa 1% da larguratotal da viewport.</li>
+                    <li>Exemplo: Se a largura da janela for 1200px, <strong>1vw = 12px.</strong></li>
+                    <li>Se você definir um elemento com <code>width: 100vw</code>, ele terá exatamente a largura da janela inteira.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h3>Exemplo prático:</h3>
+        <p>Imagine uma tela com 1920px de largura e 1080px de altura:</p>
+        <ul>
+            <li><code>50vh</code>: 50% da altura da tela = 540px.</li>
+            <li><code>50vw</code>: 50% da largura da tela = 960px.</li>
+        </ul>
+        <p>Essas unidades são muito uteis para criar layouts responsivos, ajustando os tamanhos dos elementos de acordo com o tamanho da tela.</p>
+    </section>
+
+</body>
+</html>
